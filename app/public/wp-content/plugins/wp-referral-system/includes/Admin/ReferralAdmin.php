@@ -214,9 +214,33 @@ class ReferralAdmin extends \WP_List_Table {
     }
 
     /**
+     * Get bulk actions
+     */
+    public function handle_actions() {
+        global $wpdb;
+    
+        if (isset($_GET['action'], $_GET['id']) && $_GET['action'] === 'delete') {
+            $id = absint($_GET['id']);
+            $nonce = $_GET['_wpnonce'] ?? '';
+    
+            if (!wp_verify_nonce($nonce, 'delete_referral_' . $id)) {
+                wp_die(__('Security check failed.', 'wp-referral-system'));
+            }
+    
+            $table = $wpdb->prefix . 'referral_history';
+            $wpdb->delete($table, ['id' => $id], ['%d']);
+    
+            wp_redirect(admin_url('admin.php?page=wp-referral-system&deleted=1'));
+            exit;
+        }
+    }
+
+    /**
      * Render admin page
      */
     public function render_admin_page() {
+        $this->handle_actions(); 
+
         ?>
         <div class="wrap">
             <h1><?php echo esc_html__('WP Referral System', 'wp-referral-system'); ?></h1>
