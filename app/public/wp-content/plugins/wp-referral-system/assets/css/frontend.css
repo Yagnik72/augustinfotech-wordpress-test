@@ -1,0 +1,79 @@
+/**
+ * Frontend styles
+ */
+
+.wp-referral-system-registration-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.wp-referral-system-registration-form .form-group {
+    margin-bottom: 20px;
+}
+
+.wp-referral-system-registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.wp-referral-system-registration-form input[type="text"],
+.wp-referral-system-registration-form input[type="email"],
+.wp-referral-system-registration-form input[type="password"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.wp-referral-system-registration-form input[type="text"]:focus,
+.wp-referral-system-registration-form input[type="email"]:focus,
+.wp-referral-system-registration-form input[type="password"]:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+    outline: none;
+}
+
+.wp-referral-system-registration-form .button {
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.wp-referral-system-registration-form .button:hover {
+    background: #006291;
+}
+
+/* Referral code validation status */
+.referral-code-status {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.referral-code-status .loading {
+    color: #666;
+}
+
+.referral-code-status .valid {
+    color: #46b450;
+}
+
+.referral-code-status .invalid {
+    color: #dc3232;
+}
+
+.referral-code-status .error {
+    color: #dc3232;
+} 

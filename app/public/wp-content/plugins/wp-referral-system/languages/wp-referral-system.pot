@@ -1,0 +1,187 @@
+# Copyright (C) 2023
+# This file is distributed under the same license as the WP Referral System package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Referral System 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-referral-system\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-06-05T12:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wp-referral-system\n"
+
+#. Plugin Name of the plugin
+msgid "WP Referral System"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid ""
+msgstr ""
+
+#. Description of the plugin
+msgid "A WordPress plugin for managing referral system with commission tracking"
+msgstr ""
+
+#. Author of the plugin
+msgid ""
+msgstr ""
+
+#. Author URI of the plugin
+msgid ""
+msgstr ""
+
+#: includes/Admin/Admin.php:25
+msgid "Referral System"
+msgstr ""
+
+#: includes/Admin/Admin.php:26
+msgid "Referral History"
+msgstr ""
+
+#: includes/Admin/Admin.php:27
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/ReferralHistory.php:20
+msgid "Referral"
+msgstr ""
+
+#: includes/Admin/ReferralHistory.php:21
+msgid "Referrals"
+msgstr ""
+
+#: includes/Admin/ReferralHistory.php:31
+msgid "Username"
+msgstr ""
+
+#: includes/Admin/ReferralHistory.php:32
+msgid "Referral Username"
+msgstr ""
+
+#: includes/Admin/ReferralHistory.php:33
+msgid "Commission"
+msgstr ""
+
+#: includes/Admin/ReferralHistory.php:34
+msgid "Date"
+msgstr ""
+
+#: includes/Admin/ReferralHistory.php:35
+msgid "Actions"
+msgstr ""
+
+#: includes/Admin/ReferralHistory.php:67
+msgid "Delete"
+msgstr ""
+
+#: includes/Admin/Settings.php:20
+msgid "General Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:21
+msgid "Configure general settings for the referral system."
+msgstr ""
+
+#: includes/Admin/Settings.php:25
+msgid "Join Commission (₹)"
+msgstr ""
+
+#: includes/Admin/Settings.php:33
+msgid "Commission amount in Indian Rupees (₹) for each successful referral."
+msgstr ""
+
+#: includes/Frontend/Registration.php:30
+msgid "Valid referral code"
+msgstr ""
+
+#: includes/Frontend/Registration.php:34
+msgid "Invalid referral code"
+msgstr ""
+
+#: templates/admin/dashboard.php:5
+msgid "Referral System Dashboard"
+msgstr ""
+
+#: templates/admin/dashboard.php:10
+msgid "Total Referrals"
+msgstr ""
+
+#: templates/admin/dashboard.php:15
+msgid "Total Commission"
+msgstr ""
+
+#: templates/admin/dashboard.php:20
+msgid "Recent Referrals"
+msgstr ""
+
+#: templates/admin/dashboard.php:25
+msgid "User"
+msgstr ""
+
+#: templates/admin/dashboard.php:26
+msgid "Referral User"
+msgstr ""
+
+#: templates/admin/history.php:5
+msgid "Referral History"
+msgstr ""
+
+#: templates/admin/history.php:8
+msgid "Search"
+msgstr ""
+
+#: templates/admin/settings.php:3
+msgid "Referral System Settings"
+msgstr ""
+
+#: templates/admin/settings.php:12
+msgid "Shortcode"
+msgstr ""
+
+#: templates/admin/settings.php:13
+msgid "Use the following shortcode to display the registration form:"
+msgstr ""
+
+#: templates/frontend/registration-form.php:8
+msgid "First Name"
+msgstr ""
+
+#: templates/frontend/registration-form.php:13
+msgid "Last Name"
+msgstr ""
+
+#: templates/frontend/registration-form.php:18
+msgid "Email"
+msgstr ""
+
+#: templates/frontend/registration-form.php:23
+msgid "Password"
+msgstr ""
+
+#: templates/frontend/registration-form.php:28
+msgid "Referral Code"
+msgstr ""
+
+#: templates/frontend/registration-form.php:33
+msgid "Register"
+msgstr ""
+
+#: templates/frontend/registration-form.php:45
+msgid "Validating..."
+msgstr ""
+
+#: templates/frontend/registration-form.php:48
+msgid "✓ Valid code"
+msgstr ""
+
+#: templates/frontend/registration-form.php:50
+msgid "✗ Invalid code"
+msgstr ""
+
+#: templates/frontend/registration-form.php:52
+msgid "Error validating code"
+msgstr "" 

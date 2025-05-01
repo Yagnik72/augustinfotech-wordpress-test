@@ -1,0 +1,66 @@
+.wp-referral-system-page {
+    padding: 2rem 0;
+}
+
+.wp-referral-system-page .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.wp-referral-system-stats {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.wp-referral-system-stats h3 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.stat-item {
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stat-item h4 {
+    margin: 0 0 0.5rem;
+    color: #666;
+    font-size: 1rem;
+}
+
+.stat-value {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0073aa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .wp-referral-system-page {
+        padding: 1rem 0;
+    }
+    
+    .wp-referral-system-stats {
+        padding: 1rem;
+    }
+    
+    .stat-item {
+        padding: 1rem;
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
+    }
+} 

@@ -1,0 +1,84 @@
+.wp-referral-system-top-blogs {
+    padding: 20px;
+}
+
+.wp-referral-system-top-blogs .blogs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wp-referral-system-top-blogs .blog-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.wp-referral-system-top-blogs .blog-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.wp-referral-system-top-blogs .blog-item h3 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.wp-referral-system-top-blogs .blog-excerpt {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.wp-referral-system-top-blogs .blog-image {
+    position: relative;
+    padding-top: 80%; /* 4:3 aspect ratio */
+    overflow: hidden;
+}
+
+.wp-referral-system-top-blogs .blog-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wp-referral-system-top-blogs .blog-title {
+    padding: 15px 20px 10px;
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+
+.wp-referral-system-top-blogs .blog-title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.wp-referral-system-top-blogs .blog-title a:hover {
+    color: #0073aa;
+}
+
+.wp-referral-system-top-blogs .blog-description {
+    padding: 0 20px 20px;
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+    .wp-referral-system-top-blogs .blogs-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .wp-referral-system-top-blogs .blogs-grid {
+        grid-template-columns: 1fr;
+    }
+} 

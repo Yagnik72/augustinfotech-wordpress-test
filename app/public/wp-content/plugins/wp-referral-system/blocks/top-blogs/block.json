@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "wp-referral-system/top-blogs",
+    "version": "1.0.0",
+    "title": "Top 5 WordPress Blogs",
+    "category": "widgets",
+    "icon": "grid-view",
+    "description": "Display top 5 WordPress blogs in a grid layout",
+    "supports": {
+        "html": false,
+        "align": true
+    },
+    "attributes": {
+        "orderBy": {
+            "type": "string",
+            "default": "DESC"
+        },
+        "order": {
+            "type": "string",
+            "default": "publishDate"
+        },
+        "numberOfPosts": {
+            "type": "number",
+            "default": 5
+        }
+    },
+    "textdomain": "wp-referral-system",
+    "editorScript": "wp-referral-system-top-blogs",
+    "editorStyle": "wp-referral-system-top-blogs",
+    "style": "wp-referral-system-top-blogs"
+} 

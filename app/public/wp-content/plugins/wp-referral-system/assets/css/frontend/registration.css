@@ -1,0 +1,102 @@
+.wp-referral-system-registration {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wp-referral-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.referral-code-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.referral-code-container .input {
+    padding-right: 30px;
+}
+
+.referral-code-status {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.referral-code-status .spinner {
+    float: none;
+    margin: 0;
+}
+
+.referral-code-status .valid {
+    color: #46b450;
+}
+
+.referral-code-status .invalid {
+    color: #dc3232;
+}
+
+.referral-code-status .error {
+    color: #ffb900;
+}
+
+.referral-code-status .loading {
+    color: #007cba;
+}
+
+.description {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.wp-referral-message {
+    margin-top: 20px;
+}
+
+.wp-referral-message .notice {
+    margin: 0;
+    padding: 10px;
+}
+
+.button-primary {
+    background: #007cba;
+    border-color: #007cba;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background: #006ba1;
+    border-color: #006ba1;
+}
+
+.button-primary:disabled {
+    background: #ccc;
+    border-color: #ccc;
+    cursor: not-allowed;
+} 
