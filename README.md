@@ -23,7 +23,7 @@ This repository contains the practical submission for the Senior WordPress/WooCo
 
 ## Contact Information
 For any questions regarding this submission, please contact:
-- Email: [Your Email Address]
+- Email: yagnikpadaliya72@gmail.com
 
 ## Notes
 This project was submitted as part of the practical test for the Senior WordPress/WooCommerce Developer position at August Infotech. 
