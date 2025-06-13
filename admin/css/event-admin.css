@@ -1,0 +1,25 @@
+.status-pending,
+.status-approved,
+.status-rejected {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-pending {
+    background-color: #f0b849;
+    color: #fff;
+}
+
+.status-approved {
+    background-color: #46b450;
+    color: #fff;
+}
+
+.status-rejected {
+    background-color: #dc3232;
+    color: #fff;
+}
