@@ -63,11 +63,6 @@ class Event_Admin {
             wp_die(__('You do not have sufficient permissions to access this page.'));
         }
 
-        if (isset($_GET['action']) && $_GET['action'] === 'new') {
-            include_once EVENT_PLUGIN_DIR . 'admin/partials/event-admin-form.php';
-            return;
-        }
-
         $event_list_table = new Event_List_Table();
         $event_list_table->prepare_items();
         include_once EVENT_PLUGIN_DIR . 'admin/partials/event-admin-display.php';

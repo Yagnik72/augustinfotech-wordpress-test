@@ -33,9 +33,9 @@ class Event {
         $plugin_public = new Event_Public($this->plugin_name, $this->version);
         $this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_styles');
         $this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_scripts');
+        $this->loader->add_shortcode('event_calendar', $plugin_public, 'event_calendar_shortcode');
         $this->loader->add_action('wp_ajax_get_events', $plugin_public, 'get_events');
         $this->loader->add_action('wp_ajax_nopriv_get_events', $plugin_public, 'get_events');
-        $this->loader->add_shortcode('event_calendar', $plugin_public, 'event_calendar_shortcode');
     }
 
     public function run() {
